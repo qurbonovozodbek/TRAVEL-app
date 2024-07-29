@@ -1,0 +1,280 @@
+ /* ABOUT */
+
+.about {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    margin-top: 420px;
+    display: flex;
+    gap: 51px;
+    justify-content: center;
+}
+.about-img {
+    display: flex;
+    align-items: center;
+    gap: 13.46px;
+}
+.about-img .img {
+    margin-top: -42.54px;
+}
+.about-texts h3 {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    color: #202020;
+    width: 360px;
+}
+.about-texts p {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #959595;
+    margin-top: 24px;
+    width: 460px;
+}
+.about-btn {
+    margin-top: 32px;
+    padding: 12px 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-left: auto;
+    cursor: pointer;
+    border: 2px solid green;
+    transition: all 0.2s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+}
+.about-btn:hover {
+    background-color: #fff;
+    color: green;
+}
+.about-btn:active {
+    transform: scale(95%);
+}
+
+/* DISCOVER */
+
+.discover {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.discover h3 {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    color: #202020;
+    margin-bottom: 40px;
+    width: 409px;
+    text-align: center;
+}
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+.cards .card1 {
+    padding: 267px 79px 29px 24px;
+    width: 274px;
+    height: 346px;
+    background: url(../assets/image/img-3.png) no-repeat;
+}
+.cards .card2 {
+    padding: 322px 116px 28px 24px;
+    width: 316px;
+    height: 400px;
+    background: url(../assets/image/img-4.png);
+}
+.cards .card3 {
+    padding: 268px 56px 28px 24px; 
+    width: 274px;
+    height: 346px; 
+    background: url(../assets/image/img-.png);
+}
+.cards h4 {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+}
+.cards span {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+
+/* PLACE */
+
+.place {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.place h3 {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    color: #202020;
+    margin-bottom: 40px;
+    width: 322px;
+    text-align: center;
+}
+.cards .box1 {
+    width: 295px;
+    height: 373px;
+    background: url(../assets/image/img-6.png) no-repeat;
+    padding: 279px 19px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.cards .box2 {
+    width: 295px;
+    height: 373px;
+    background: url(../assets/image/img-7.png) no-repeat;
+    padding: 279px 19px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.cards .box3 {
+    width: 295px;
+    height: 373px;
+    background: url(../assets/image/img-9.png) no-repeat;
+    padding: 279px 19px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.box1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 2px 15px black;
+}
+.box2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 2px 15px black;
+}
+.box3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 2px 15px black;
+}
+.place .card {
+    width: 256px;
+    height: 78px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 6px;
+}
+.card h5 {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #202020;
+}
+.card p {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #959595;
+}
+
+/* JOIN */
+
+.join {
+    margin: 0 auto;
+    width: 1180px;
+    border-radius: 16px;
+    background: #2B6F3E;
+    padding-top: 85px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.join h1 {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.join p {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 24px;
+    width: 363px;
+}
+.join .join-btn {
+    padding: 12px 30px;
+    border-radius: 8px;
+    border: none;
+    background-color: #fff;
+    color: #2B6F3E;
+    transition: background-color 0.4s ease-in-out;
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    margin-top: 32px;
+    cursor: pointer;
+    margin-bottom: 85px;
+    border: 2px solid #fff;
+}
+.join .join-btn:hover {
+    background-color: #2B6F3E;
+    color: #fff;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top: 100px;
+    width: 100%;
+    padding: 32px;
+    background: #2B6F3E;
+}
+
+.footer h6 {
+    font-family: "Readex Pro", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    text-align: center;
+}
